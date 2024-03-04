@@ -1,0 +1,2 @@
+com.artemis.SubscriptionListenerTest.entity_components_changed_by_edit_and_transmuter_test
+com.artemis.SubscriptionListenerTest.entity_components_changed_by_archetype_and_transmuter_test

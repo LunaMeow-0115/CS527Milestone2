@@ -1,0 +1,2 @@
+org.stagemonitor.core.metrics.metrics2.ElasticsearchReporterTest.testReportHistograms
+org.stagemonitor.core.metrics.metrics2.ElasticsearchReporterTest.testReportTimers

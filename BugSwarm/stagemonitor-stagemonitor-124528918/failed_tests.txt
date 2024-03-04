@@ -1,0 +1,3 @@
+org.stagemonitor.alerting.annotation.SlaCheckCreatingClassPathScannerTest.testTriggersResponseTimeIncident
+org.stagemonitor.alerting.annotation.SlaCheckCreatingClassPathScannerTest.testSlaCreatesChecks
+org.stagemonitor.alerting.annotation.SlaCheckCreatingClassPathScannerTest.testTriggersErrorRateIncident

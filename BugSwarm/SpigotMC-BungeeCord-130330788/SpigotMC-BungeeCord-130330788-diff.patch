@@ -1,0 +1,13 @@
+diff --git a/proxy/src/main/java/net/md_5/bungee/ConnectionThrottle.java b/proxy/src/main/java/net/md_5/bungee/ConnectionThrottle.java
+index 207defad..4c9190e2 100644
+--- a/proxy/src/main/java/net/md_5/bungee/ConnectionThrottle.java
++++ b/proxy/src/main/java/net/md_5/bungee/ConnectionThrottle.java
+@@ -21,7 +21,7 @@ public class ConnectionThrottle
+ 
+     public boolean throttle(InetAddress address)
+     {
+-        boolean isThrottled = throttle.getIfPresent( address );
++        boolean isThrottled = throttle.getIfPresent( address ) != null;
+         throttle.put( address, true );
+ 
+         return isThrottled;
